@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "codrscrape"
+version = "1.0.0"
+description = "A scraper for the website callofdutyrepo.com"
+authors = ["Simon Sawicki <contact@grub4k.xyz>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.10"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+pyinstaller = "^5.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
